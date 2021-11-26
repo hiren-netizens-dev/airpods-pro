@@ -465,6 +465,11 @@ input,textarea,select:-webkit-autofill{
     line-height: 33px;
     color: #FFFFFF;
 }
+@media screen and (max-width: 375px){
+    .banner_wrapper .product_wrapper .product_block .form_wrapper .form_block .title label{
+        font-size: 22px;
+    }
+}
 .banner_wrapper .product_wrapper .product_block .form_wrapper .form_block .form-group{
     margin-bottom: 20px;
 }
@@ -738,6 +743,11 @@ input,textarea,select:-webkit-autofill{
         margin-bottom: 20px;
     }
 }
+@media(max-width:375px){
+    .feature_wrapper .feature_block .right_block h1{
+        font-size: 30px;
+    }
+}
 @media(max-width:767px){
     .feature_wrapper .feature_block .right_block .contant_block{
         padding: 40px 0 0;
@@ -810,6 +820,11 @@ input,textarea,select:-webkit-autofill{
         font-size: 28px;
     }
 }
+@media(max-width:375px){
+    .arrival_wrapper h1{
+        font-size: 25px;
+    }
+}
 .arrival_wrapper .img_wrapper{
     position: relative;
     max-width: 900px;
@@ -839,6 +854,11 @@ input,textarea,select:-webkit-autofill{
 @media(max-width:575px){
     .arrival_wrapper .desc_block h5{
         font-size: 14px;
+    }
+}
+@media(max-width:375px){
+    .arrival_wrapper .desc_block h5{
+        font-size: 12px;
     }
 }
 .arrival_wrapper .desc_block h6{
@@ -972,7 +992,7 @@ input,textarea,select:-webkit-autofill{
 }
 @media(max-width:375px){
     .gallary_wrapper .gallary_block .gallary_content h1{
-        font-size: 54px;
+        font-size: 50px;
         line-height: 1;
     }
 }
