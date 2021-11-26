@@ -488,6 +488,7 @@ input,textarea,select:-webkit-autofill{
     padding: 5px 20px;
     color: rgba(0, 0, 0, 0.8);
     font-size: 15px;
+    background-color: #fff;
 }
 .banner_wrapper .product_wrapper .product_block .form_wrapper .form_block .form-group select {
     background-image: url(images/arrow.png);
@@ -806,7 +807,7 @@ input,textarea,select:-webkit-autofill{
 }
 @media(max-width:575px){
     .arrival_wrapper h1{
-        font-size: 32px;
+        font-size: 28px;
     }
 }
 .arrival_wrapper .img_wrapper{
@@ -860,7 +861,7 @@ input,textarea,select:-webkit-autofill{
 .arrival_wrapper .desc_block .desc_2{
     position: absolute;
     bottom: 30%;
-    left: 20%;
+    left: 23%;
 }
 .arrival_wrapper .desc_block .desc_3{
     position: absolute;
@@ -971,7 +972,7 @@ input,textarea,select:-webkit-autofill{
 }
 @media(max-width:375px){
     .gallary_wrapper .gallary_block .gallary_content h1{
-        font-size: 57px;
+        font-size: 54px;
         line-height: 1;
     }
 }
@@ -991,7 +992,7 @@ footer {
   footer::after{
       content: '';
       position: absolute;
-      background-color: rgba(0, 0, 0, 0.78);
+      background-color: #000000c7;
       height: 100%;
       width: 100%;
       top: 0;
